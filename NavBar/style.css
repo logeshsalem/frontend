@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6),       rgba(0,0,0,0.4)),url('Web_Photo_Editor.jpg');
+  background-size: cover;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.logo{
+  font-size: 30px;
+  color: white;
+}
+.logo span{
+  color: #9399ec;
+  font-family: 'Lobster', cursive;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+nav ul li a:hover{
+  color: #9399ec;
+}
+
+nav button{
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  border:none;
+  background: #9399ec;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+nav button:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+}
+.banner{
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.5s;
+}
+.banner h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.banner span{
+  color:#9399ec;
+  font-family: 'Lobster',cursive;
+}
+
+.banner p{
+  font-size: 20px;
+}
+
+.banner p a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  
+}
